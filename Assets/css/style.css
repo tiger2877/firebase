@@ -20,7 +20,7 @@ div {
   display: block;
 }
 
-label { color: black; display: block; width: 150px; float: left; } 
+label { color: black; display: block; float: left; } 
 
 .jumbotron {
   padding: 2rem 1rem;
