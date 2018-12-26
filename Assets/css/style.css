@@ -93,6 +93,10 @@ h3 {
   color: #4aaaa5;
 }
 
+th {
+  font-weight: bold;
+}
+
 footer {
   padding: 30px 0;
   clear: both;
