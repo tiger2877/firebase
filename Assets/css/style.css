@@ -29,7 +29,6 @@ label { color: black; display: block; float: left; }
   color: bisque; 
   border-radius: .3rem;
 }
-}
 
 * {
   box-sizing: border-box;
@@ -82,7 +81,7 @@ footer {
 h1 {
   padding-bottom: 20px;
   font-size: 50px;
-  color:white;
+  color: yellow;
 }
 
 h2,
@@ -90,7 +89,7 @@ h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   font-size: 22px;
-  color: #4aaaa5;
+  color: yellowgreen;
 }
 
 th {
