@@ -1,0 +1,146 @@
+body{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight:400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.container{
+  width: 100%;
+  padding-right: 15 px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div {
+  display: block;
+}
+
+label { color: black; display: block; width: 150px; float: left; } 
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: darkblue;
+  color: bisque; 
+  border-radius: .3rem;
+}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: black;
+  color: white;
+  font-weight: bold
+}
+
+.card-header:first-child {
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+footer {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.btn-sm {
+  margin: 10px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn-primary {
+  margin: 5px;
+}
+
+.btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: solid 1px #C0392B;
+  background-color: #E74C3C;
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  opacity: .9;
+}
+
+.btn:active {
+  opacity: 1;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 50px;
+  color:white;
+}
+
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #4aaaa5;
+}
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  height: 50px;
+}
+
+/* sticky footer 
+   https://css-tricks.com/couple-takes-sticky-footer/ */
+
+   .wrapper {
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -100px;
+  }
+  
+  footer,
+  .push {
+    height: 50px;
+  }
+
+  @media only screen and (max-width:980px) {
+    .jumbotron {
+      padding: 2rem;
+    }
+    .container {
+      overflow: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .jumbotron {
+      padding: 1.5rem;
+    }
+  
+    .container {
+      overflow: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 640px){
+    .jumbotron {
+      padding: 1rem;
+    }
+  
+    .container {
+      overflow: auto;
+    }
+  }
