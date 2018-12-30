@@ -107,7 +107,7 @@ database.ref().on("child_added", function(snapshot) {
     // Calculate the next train arrival
      // Difference between the times
   
-    var diffTime = moment().diff(moment(firstTimeConverted), "minutes")
+    var diffTime = currentTime.diff(moment(firstTimeConverted), "minutes")
  
     console.log("DIFFERENCE IN TIME: " + diffTime);
 
